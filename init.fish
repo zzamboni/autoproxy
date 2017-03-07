@@ -5,4 +5,5 @@
 # * $path          package path
 # * $dependencies  package dependencies
 
+__autoproxy_notif_requested
 autoproxy
