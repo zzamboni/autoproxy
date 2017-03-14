@@ -41,7 +41,7 @@ it should run very fast.
 For example, in `$OMF_CONFIG/before.init.fish`:
 
 ```fish
-set autoproxy_check_command "test -f /etc/resolv.conf; and egrep -q '^(search|domain).*corpdomain.com' /etc/resolv.conf"
+set -U autoproxy_check_command "test -f /etc/resolv.conf; and egrep -q '^(search|domain).*corpdomain.com' /etc/resolv.conf"
 ```
 
 # License
